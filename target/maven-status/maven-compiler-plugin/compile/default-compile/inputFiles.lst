@@ -1,0 +1,14 @@
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/util/UsuarioService.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/util/UsuarioImpl.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/persistencia/UsuarioDaoJpa.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/persistencia/ContatoDaoJpa.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/util/InicializadorSistema.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/entidade/EnumPapelUsuario.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/entidade/HistoricoLogin.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/persistencia/UsuarioDao.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/util/UsernamePasswordAuthenticationTokenCustom.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/entidade/PapelUsuario.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/persistencia/ContatoDao.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/controle/ContatoControl.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/entidade/Contato.java
+/home/aluno/workspace/primefaces/src/main/java/br/com/ambientinformatica/primefaces/entidade/Usuario.java

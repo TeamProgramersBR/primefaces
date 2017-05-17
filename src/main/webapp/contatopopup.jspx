@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ui:composition template="template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:a="http://www.ambientinformatica.com.br/jsf2"
+	xmlns:p="http://primefaces.org/ui">
+	<ui:define name="corpo">
+	<h:outputText value="#{ContatoControl.selecionarContatoParaEdicao(param['id'])}" />
+	<p:growl autoUpdate="true"/> 
+
+		<p:panel header="Formulário" id="panel" >
+			<h:panelGrid columns="2">
+				<h:outputText value="Nome"></h:outputText>
+				<p:inputText value="#{ContatoControl.contato.nome }"></p:inputText>
+				<h:outputText value="Telefone"></h:outputText>
+				<p:inputMask value="#{ContatoControl.contato.telefone }"
+					mask="(99) 9999-9999"></p:inputMask>
+				<p:commandButton actionListener="#{ContatoControl.confirmar }" value="Confirmar" update="contatos, panel"></p:commandButton>
+			</h:panelGrid>
+		</p:panel>
+
+
+	</ui:define>
+</ui:composition>
